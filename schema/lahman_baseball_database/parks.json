@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "park.key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "park.name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "park.alias",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "country",
+    "type": "STRING"
+  }
+]

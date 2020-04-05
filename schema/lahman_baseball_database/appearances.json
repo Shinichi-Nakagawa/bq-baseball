@@ -1,0 +1,92 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G_all",
+    "type": "INTEGER"
+  },
+ {
+    "mode": "NULLABLE",
+    "name": "GS",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_batting",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_defense",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_p",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_c",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_1b",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_2b",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_3b",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_ss",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_lf",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_cf",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_rf",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_of",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_dh",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_ph",
+    "type": "INTEGER"
+  }, {
+    "mode": "NULLABLE",
+    "name": "G_pr",
+    "type": "INTEGER"
+  }
+]

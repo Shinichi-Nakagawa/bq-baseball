@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "schoolID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  }
+]

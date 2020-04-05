@@ -1,0 +1,152 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "round",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "W",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "L",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CG",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SHO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SV",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IPouts",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "H",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ER",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HR",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAOpp",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ERA",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IBB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HBP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BK",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BFP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "R",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SH",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GIDP",
+    "type": "INTEGER"
+  }
+]

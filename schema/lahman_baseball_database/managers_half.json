@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inseason",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "half",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "W",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "L",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rank",
+    "type": "INTEGER"
+  }
+]

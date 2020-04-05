@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "round",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamIDwinner",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgIDwinner",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamIDloser",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgIDloser",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "wins",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "losses",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ties",
+    "type": "INTEGER"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "salary",
+    "type": "INTEGER"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gameNum",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gameID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "startingPos",
+    "type": "INTEGER"
+  }
+]

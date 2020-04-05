@@ -1,0 +1,102 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "birthDay",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "birthCountry",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "birthState",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "birthCity",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deathDay",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deathCountry",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deathState",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deathCity",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nameFirst",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nameLast",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nameGiven",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "weight",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "height",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bats",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "throws",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "debut",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "finalGame",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "retroID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bbrefID",
+    "type": "STRING"
+  }
+]

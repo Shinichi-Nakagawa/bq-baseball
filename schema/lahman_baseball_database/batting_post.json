@@ -1,0 +1,113 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "round",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "R",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "H",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "2B",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "3B",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HR",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RBI",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IBB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HBP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SH",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GIDP",
+    "type": "INTEGER"
+  }
+]

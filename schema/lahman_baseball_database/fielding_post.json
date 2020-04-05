@@ -1,0 +1,87 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "round",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "POS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "InnOuts",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "A",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "E",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CS",
+    "type": "INTEGER"
+  }
+]

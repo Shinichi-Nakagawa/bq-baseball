@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "franchID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "franchName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "active",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "NAassoc",
+    "type": "STRING"
+  }
+]

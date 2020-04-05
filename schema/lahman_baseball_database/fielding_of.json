@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "playerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stint",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Glf",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Gcf",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Grf",
+    "type": "INTEGER"
+  }
+]

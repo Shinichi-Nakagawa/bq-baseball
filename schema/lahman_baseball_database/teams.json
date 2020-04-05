@@ -1,0 +1,242 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "franchID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "divID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Rank",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Ghome",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "W",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "L",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DivWin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WCWin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LgWin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WSWin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "R",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "H",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "2B",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "3B",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HR",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SB",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HBP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RA",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ER",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ERA",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CG",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SHO",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SV",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IPouts",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HA",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HRA",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BBA",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SOA",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "E",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DP",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "FP",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "park",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "attendance",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BPF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PPF",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamIDBR",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamIDlahman45",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamIDretro",
+    "type": "STRING"
+  }
+]

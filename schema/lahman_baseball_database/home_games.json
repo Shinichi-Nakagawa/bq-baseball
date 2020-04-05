@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "year.key",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "league.key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "team.key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "park.key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "span.first",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "span.last",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "games",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "openings",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "attendance",
+    "type": "INTEGER"
+  }
+]

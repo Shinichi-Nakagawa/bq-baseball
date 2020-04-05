@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "yearID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lgID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "teamID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Half",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "divID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DivWin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Rank",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "G",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "W",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "L",
+    "type": "INTEGER"
+  }
+]
