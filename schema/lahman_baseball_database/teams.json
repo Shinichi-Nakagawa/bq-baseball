@@ -86,12 +86,12 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "2B",
+    "name": "_2B",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "3B",
+    "name": "_3B",
     "type": "INTEGER"
   },
   {

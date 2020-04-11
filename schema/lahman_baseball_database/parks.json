@@ -1,17 +1,17 @@
 [
   {
     "mode": "NULLABLE",
-    "name": "park.key",
+    "name": "park_key",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "park.name",
+    "name": "park_name",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "park.alias",
+    "name": "park_alias",
     "type": "STRING"
   },
   {

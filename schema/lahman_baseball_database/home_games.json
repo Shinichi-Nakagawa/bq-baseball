@@ -1,32 +1,32 @@
 [
   {
     "mode": "NULLABLE",
-    "name": "year.key",
+    "name": "year_key",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "league.key",
+    "name": "league_key",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "team.key",
+    "name": "team_key",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "park.key",
+    "name": "park_key",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "span.first",
+    "name": "span_first",
     "type": "DATE"
   },
   {
     "mode": "NULLABLE",
-    "name": "span.last",
+    "name": "span_last",
     "type": "DATE"
   },
   {
