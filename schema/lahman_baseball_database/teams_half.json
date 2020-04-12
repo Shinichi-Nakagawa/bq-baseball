@@ -27,7 +27,7 @@
   {
     "mode": "NULLABLE",
     "name": "DivWin",
-    "type": "STRING"
+    "type": "BOOLEAN"
   },
   {
     "mode": "NULLABLE",

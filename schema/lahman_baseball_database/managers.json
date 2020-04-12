@@ -47,6 +47,6 @@
   {
     "mode": "NULLABLE",
     "name": "plyrMgr",
-    "type": "STRING"
+    "type": "BOOLEAN"
   }
 ]

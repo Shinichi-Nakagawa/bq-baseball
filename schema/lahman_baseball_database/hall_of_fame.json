@@ -32,7 +32,7 @@
   {
     "mode": "NULLABLE",
     "name": "inducted",
-    "type": "STRING"
+    "type": "BOOLEAN"
   },
   {
     "mode": "NULLABLE",
