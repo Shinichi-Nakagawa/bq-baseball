@@ -27,7 +27,7 @@
   {
     "mode": "NULLABLE",
     "name": "POS",
-    "type": "INTEGER"
+    "type": "STRING"
   },
   {
     "mode": "NULLABLE",

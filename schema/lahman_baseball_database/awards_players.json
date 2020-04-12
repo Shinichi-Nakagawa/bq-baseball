@@ -22,7 +22,7 @@
   {
     "mode": "NULLABLE",
     "name": "tie",
-    "type": "STRING"
+    "type": "BOOLEAN"
   },
   {
     "mode": "NULLABLE",

@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.8"
 google-cloud-bigquery = "^1.24.0"
 click = "^7.1.1"
+python-json-logger = "^0.1.11"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.1"

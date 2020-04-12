@@ -22,16 +22,16 @@
   {
     "mode": "NULLABLE",
     "name": "pointsWon",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "mode": "NULLABLE",
     "name": "pointsMax",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   },
   {
     "mode": "NULLABLE",
     "name": "votesFirst",
-    "type": "INTEGER"
+    "type": "NUMERIC"
   }
 ]

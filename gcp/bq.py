@@ -20,11 +20,10 @@ class Bq(Gcp):
         """
         job_config = LoadJobConfig()
         job_config.write_disposition = bq.WriteDisposition.WRITE_APPEND
-        job_config.autodetect = True
+        job_config.autodetect = False
         job_config.ignore_unknown_values = True
         job_config.source_format = source_format
         job_config.skip_leading_rows = 1
-        job_config.defa
         return job_config
 
     def load_csv(self, table_id: str, filename: str):
