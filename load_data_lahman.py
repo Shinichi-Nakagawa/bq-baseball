@@ -1,10 +1,12 @@
 import click
 import logging
 
+import pandas as pd
 from pythonjsonlogger import jsonlogger
 
 from gcp.bq import Bq
-from dataset.lahman import DATASET, TABLES
+from dataset import Table
+from dataset.lahman import DATASET, TABLES, RENAME_COLUMNS
 
 
 class LoadDatabase:
@@ -22,7 +24,12 @@ class LoadDatabase:
     def load(self):
         for table in TABLES:
             self.logger.info('loading table start %s', table.table_name)
-            self.bq.load_csv(table_id=table.table_name, filename=f'{self.directory}/{table.data_source}')
+            if table.load_type == Table.LoadType.CSV:
+                self.bq.load_csv(table_id=table.table_name, filename=f'{self.directory}/{table.data_source}')
+            elif table.load_type == Table.LoadType.DATA_FRAME:
+                df = pd.read_csv(f'{self.directory}/{table.data_source}')
+                df.rename(columns=RENAME_COLUMNS, inplace=True)
+                self.bq.load_dataframe(table_id=table.table_name, df=df)
             self.logger.info('loading table end %s', table.table_name)
 
 
