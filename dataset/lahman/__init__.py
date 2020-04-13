@@ -54,9 +54,10 @@ table_managers_half = Table(table_name='managers_half', schema_file=f"{SCHEMA_PA
 table_parks = Table(table_name='parks', schema_file=f"{SCHEMA_PATH}/parks.json", data_source='Parks.csv',
                     load_type=Table.LoadType.DATA_FRAME)
 table_people = Table(table_name='people', schema_file=f"{SCHEMA_PATH}/people.json", data_source='People.csv')
-table_pitching = Table(table_name='pitching', schema_file=f"{SCHEMA_PATH}/pitching.json", data_source='Pitching.csv')
+table_pitching = Table(table_name='pitching', schema_file=f"{SCHEMA_PATH}/pitching.json", data_source='Pitching.csv',
+                       load_type=Table.LoadType.DATA_FRAME)
 table_pitching_post = Table(table_name='pitching_post', schema_file=f"{SCHEMA_PATH}/pitching_post.json",
-                            data_source='PitchingPost.csv')
+                            data_source='PitchingPost.csv', load_type=Table.LoadType.DATA_FRAME)
 table_salaries = Table(table_name='salaries', schema_file=f"{SCHEMA_PATH}/salaries.json", data_source='Salaries.csv')
 table_schools = Table(table_name='schools', schema_file=f"{SCHEMA_PATH}/schools.json", data_source='Schools.csv')
 table_series_post = Table(table_name='series_post', schema_file=f"{SCHEMA_PATH}/series_post.json",
@@ -75,25 +76,25 @@ TABLES = (
     table_awards_players,
     table_awards_share_managers,
     table_awards_share_players,
-    table_batting,            # TODO カラム名
-    table_batting_post,       # TODO カラム名
+    table_batting,
+    table_batting_post,
     table_college_playing,
     table_fielding,
     table_fielding_of,
     table_fielding_of_split,
     table_fielding_post,
     table_hall_of_fame,
-    table_home_games,         # TODO カラム名
+    table_home_games,
     table_managers,
     table_managers_half,
-    table_parks,              # TODO カラム名
+    table_parks,
     # table_people,             # TODO Birth Day/Death Dayをどうにかする
-    # table_pitching,  # TODO ERAのinfをどうにかする
-    # table_pitching_post,      # TODO ERAのinfをどうにかする
+    table_pitching,  # TODO ERAのinfをどうにかする
+    table_pitching_post,  # TODO ERAのinfをどうにかする
     table_salaries,
     table_schools,
     table_series_post,
-    table_teams,              # TODO カラム名
+    table_teams,
     table_teams_franchises,
     table_teams_half
 )
