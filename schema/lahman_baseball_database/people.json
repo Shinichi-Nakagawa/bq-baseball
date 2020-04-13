@@ -6,8 +6,18 @@
   },
   {
     "mode": "NULLABLE",
+    "name": "birthYear",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "birthMonth",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "birthDay",
-    "type": "DATE"
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
@@ -26,8 +36,18 @@
   },
   {
     "mode": "NULLABLE",
+    "name": "deathYear",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deathMonth",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "deathDay",
-    "type": "DATE"
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",

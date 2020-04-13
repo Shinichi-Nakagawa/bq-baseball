@@ -88,7 +88,7 @@ TABLES = (
     table_managers,
     table_managers_half,
     table_parks,
-    # table_people,             # TODO Birth Day/Death Dayをどうにかする
+    table_people,
     table_pitching,
     table_pitching_post,
     table_salaries,
