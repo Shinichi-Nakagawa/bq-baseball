@@ -1,0 +1,422 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "GAME_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GAME_DT",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GAME_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GAME_DY",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "START_GAME_TM",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DH_FL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DAYNIGHT_PARK_CD",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_TEAM_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_TEAM_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PARK_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_START_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_START_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE4_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE1_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE2_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE3_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LF_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RF_UMP_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ATTEND_PARK_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SCORER_RECORD_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TRANSLATOR_RECORD_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "INPUTTER_RECORD_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "INPUT_RECORD_TS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EDIT_RECORD_TS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "METHOD_RECORD_CD",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PITCHES_RECORD_CD",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TEMP_PARK_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WIND_DIRECTION_PARK_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WIND_SPEED_PARK_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "FIELD_PARK_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PRECIP_PARK_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SKY_PARK_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MINUTES_GAME_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "INN_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_SCORE_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_SCORE_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_HITS_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_HITS_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_ERR_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_ERR_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LOB_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LOB_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "WIN_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LOSE_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SAVE_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "GWRBI_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP1_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP1_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP2_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP2_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP3_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP3_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP4_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP4_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP5_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP5_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP6_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP6_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP7_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP7_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP8_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP8_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP9_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_LINEUP9_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP1_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP1_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP2_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP2_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP3_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP3_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP4_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP4_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP5_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP5_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP6_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP6_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP7_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP7_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP8_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP8_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP9_BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_LINEUP9_FLD_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_FINISH_PIT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_FINISH_PIT_ID",
+    "type": "STRING"
+  }
+]
