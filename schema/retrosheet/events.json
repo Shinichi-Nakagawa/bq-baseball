@@ -66,16 +66,6 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "BAT_ON_DECK_ID",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "BAT_IN_HOLD_ID",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
     "name": "RESP_BAT_HAND_CD",
     "type": "STRING"
   },
@@ -577,6 +567,16 @@
   {
     "mode": "NULLABLE",
     "name": "RESP_BAT_START_FL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_ON_DECK_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_IN_HOLD_ID",
     "type": "STRING"
   },
   {

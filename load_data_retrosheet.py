@@ -24,11 +24,15 @@ class LoadDatabase:
     def load(self):
         p = pathlib.Path(self.directory)
         # game data
-        for csv_file in p.glob('games-*.csv'):
+        # for csv_file in p.glob('games-*.csv'):
+        #     df = pd.read_csv(csv_file)
+        #     # 日付型に変換
+        #     df['GAME_DT'] = pd.to_datetime(df['GAME_DT'], format='%Y%m%d')
+        #     self.bq.load_dataframe(table_id=table_games.table_name, df=df)
+        # event data
+        for csv_file in p.glob('events-*.csv'):
             df = pd.read_csv(csv_file)
-            # 日付型に変換
-            df['GAME_DT'] = pd.to_datetime(df['GAME_DT'], format='%Y%m%d')
-            self.bq.load_dataframe(table_id=table_games.table_name, df=df)
+            self.bq.load_csv(table_id=table_events.table_name, filename=str(csv_file))
 
 
 @click.command()
