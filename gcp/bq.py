@@ -20,7 +20,7 @@ class Bq(Gcp):
         :return: job config
         """
         job_config = LoadJobConfig()
-        job_config.write_disposition = bq.WriteDisposition.WRITE_TRUNCATE
+        job_config.write_disposition = bq.WriteDisposition.WRITE_APPEND
         job_config.autodetect = False
         job_config.ignore_unknown_values = True
         job_config.source_format = source_format
@@ -35,8 +35,9 @@ class Bq(Gcp):
 
     def load_dataframe(self, table_id: str, df: pd.DataFrame):
         table_ref = self.dataset.table(table_id=table_id)
+        # TODO APPENDにしたいけどエラーになる
         job_config = bq.LoadJobConfig(
-            write_disposition=bq.WriteDisposition.WRITE_TRUNCATE,
+            write_disposition=bq.WriteDisposition.WRITE_APPEND,
         )
         job_config.source_format = bq.SourceFormat.DATASTORE_BACKUP
         job = self.client.load_table_from_dataframe(dataframe=df, destination=table_ref, job_config=job_config)
