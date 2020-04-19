@@ -7,7 +7,7 @@
   {
     "mode": "NULLABLE",
     "name": "GAME_DT",
-    "type": "DATE"
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",

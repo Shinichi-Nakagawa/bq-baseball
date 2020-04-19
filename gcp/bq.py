@@ -29,16 +29,14 @@ class Bq(Gcp):
 
     def load_csv(self, table_id: str, filename: str):
         table_ref = self.dataset.table(table_id=table_id)
+        job_config = self._job_config()
         with open(filename, "rb") as source_file:
-            job = self.client.load_table_from_file(source_file, table_ref, job_config=self.job_config)
+            job = self.client.load_table_from_file(source_file, table_ref, job_config=job_config)
         return job.result()
 
     def load_dataframe(self, table_id: str, df: pd.DataFrame):
         table_ref = self.dataset.table(table_id=table_id)
-        # TODO APPENDにしたいけどエラーになる
-        job_config = bq.LoadJobConfig(
-            write_disposition=bq.WriteDisposition.WRITE_APPEND,
-        )
-        job_config.source_format = bq.SourceFormat.DATASTORE_BACKUP
+        job_config = self._job_config(source_format=bq.SourceFormat.DATASTORE_BACKUP)
+        job_config.write_disposition = bq.WriteDisposition.WRITE_TRUNCATE
         job = self.client.load_table_from_dataframe(dataframe=df, destination=table_ref, job_config=job_config)
         return job.result()

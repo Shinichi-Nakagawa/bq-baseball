@@ -25,10 +25,7 @@ class LoadDatabase:
         p = pathlib.Path(self.directory)
         # game data
         for csv_file in p.glob('games-*.csv'):
-            df = pd.read_csv(csv_file)
-            # 日付型に変換
-            df['GAME_DT'] = pd.to_datetime(df['GAME_DT'], format='%Y%m%d')
-            self.bq.load_dataframe(table_id=table_games.table_name, df=df)
+            self.bq.load_csv(table_id=table_games.table_name, filename=str(csv_file))
             print('export', csv_file)
         # event data
         for csv_file in p.glob('events-*.csv'):
