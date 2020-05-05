@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS_ROI",
+    "type": "FLOAT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OUTS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNNER",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YEAR",
+    "type": "INTEGER"
+  }
+]

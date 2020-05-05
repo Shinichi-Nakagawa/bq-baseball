@@ -1,16 +1,19 @@
-import click
+import pathlib
 import logging
+
+import click
 
 from pythonjsonlogger import jsonlogger
 
 from gcp.bq import Bq
-from dataset.origin import DATASET, table_parkfactor
+from dataset.origin import DATASET, table_parkfactor, table_run_expectancy
 
 
 class LoadDatabase:
 
-    def __init__(self, filename):
+    def __init__(self, filename, directory):
         self.filename = filename
+        self.directory = directory
         self.bq = Bq(dataset=DATASET)
         logger = logging.getLogger()
         logHandler = logging.StreamHandler()
@@ -20,13 +23,19 @@ class LoadDatabase:
         self.logger = logger
 
     def load(self):
-        self.bq.load_csv(table_id=table_parkfactor.table_name, filename=self.filename)
+        if self.filename:
+            self.bq.load_csv(table_id=table_parkfactor.table_name, filename=self.filename)
+        if self.directory:
+            p = pathlib.Path(self.directory)
+            for run_ex_file in p.glob('*.csv'):
+                self.bq.load_csv(table_id=table_run_expectancy.table_name, filename=str(run_ex_file))
 
 
 @click.command()
-@click.option('--filename', '-f', help='filename', type=str, required=True)
-def load(filename):
-    cl = LoadDatabase(filename)
+@click.option('--filename', '-f', help='filename', type=str)
+@click.option('--directory', '-d', help='file directory', type=str)
+def load(filename, directory):
+    cl = LoadDatabase(filename, directory)
     cl.load()
 
 
