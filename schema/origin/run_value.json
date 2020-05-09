@@ -1,0 +1,162 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "GAME_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "INN_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_HOME_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OUTS_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AWAY_SCORE_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HOME_SCORE_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE1_RUN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE2_RUN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASE3_RUN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EVENT_CD",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_EVENT_FL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EVENT_OUTS_CT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BAT_DEST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUN1_DEST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUN2_DEST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUN3_DEST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "HALF_INNING",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS_SCORED",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BASES",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "NEW_BASE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "NEW_STATE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MAX_RUNS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS_ROI",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OutsInning",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS_STATE",
+    "type": "FLOAT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUNS_NEW_STATE",
+    "type": "FLOAT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RUN_VALUE",
+    "type": "FLOAT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EVENT_NAME",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YEAR",
+    "type": "INTEGER"
+  }
+]
