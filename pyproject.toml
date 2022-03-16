@@ -6,12 +6,12 @@ authors = ["Shinichi Nakagawa <spirits.is.my.rader@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 google-cloud-bigquery = "^1.24.0"
 click = "^7.1.1"
 python-json-logger = "^0.1.11"
 pandas = "^1.0.3"
-pyarrow = "^0.16.0"
+pyarrow = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.1"
