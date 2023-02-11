@@ -1,4 +1,5 @@
 project=$1
+dataset=$2
 # Lahman Database
 schema_path='schema/lahman_baseball_database/'
 for schema_file in ${schema_path}*.json; do
@@ -8,5 +9,5 @@ for schema_file in ${schema_path}*.json; do
   bq mk --table \
   --schema $schema_file \
   --description "" \
-  ${project}:lahman_baseball_database.${schema_name}
+  ${project}:${dataset}.${schema_name}
 done
