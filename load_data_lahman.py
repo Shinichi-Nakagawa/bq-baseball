@@ -6,7 +6,8 @@ from pythonjsonlogger import jsonlogger
 
 from gcp.bq import Bq
 from dataset import Table
-from dataset.lahman import DATASET, TABLES, RENAME_COLUMNS
+from dataset.lahman import TABLES, RENAME_COLUMNS
+from environment import DATASET_LAHMAN as DATASET
 
 
 class LoadDatabase:
