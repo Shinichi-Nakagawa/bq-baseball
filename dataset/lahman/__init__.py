@@ -1,8 +1,5 @@
 from dataset import Table
 
-# BigQuery Dataset
-DATASET = 'lahman_baseball_database'
-
 # BigQuery tables
 SCHEMA_PATH = 'schema/lahman_baseball_database'
 RENAME_COLUMNS = {
