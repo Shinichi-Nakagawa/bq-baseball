@@ -8,7 +8,7 @@ from gcp import Gcp
 class Bq(Gcp):
 
     def __init__(self, dataset):
-        super().__init__(client=Client)
+        self.client = Client()
         self.dataset = self.client.dataset(dataset)
         self.job_config = self._job_config()
 
