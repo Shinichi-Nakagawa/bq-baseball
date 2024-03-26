@@ -2,7 +2,6 @@ import pathlib
 import click
 import logging
 
-import pandas as pd
 from pythonjsonlogger import jsonlogger
 
 from gcp.bq import Bq
